@@ -65,6 +65,10 @@ header {
   color:black;
 }
 
+a{
+  color: white;
+}
+
 a:visited{
   background: black;
   color:white;
@@ -103,6 +107,58 @@ a:visited{
   padding-left: 20px;
   padding-right: 20px;
   margin: 0 auto;
+}
+
+.portfolio {
+  margin-top: 150px;
+}
+
+.project {
+  max-width: 760px;
+  border-radius: 46px;
+  border: 2px whitesmoke solid;
+  background: black;
+  padding: 20px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left:auto;
+  margin-right: auto;
+}
+
+.project-description {
+  display: inline-block;
+  font-size: 18px;
+  text-align: left;
+}
+
+.project-img {
+  vertical-align: middle;
+  max-width: 350px;
+  height: auto;
+  border-radius: 4px;
+}
+
+h4{
+  width:100%;
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.tech-stack{
+  text-align: center;
+}
+
+.tech-title {
+  border-top: 2px white solid;
+  border-bottom: 2px white solid;
+}
+
+.tech {
+  display: inline-block;
+  font-size: 16px;
+  padding: 10px;
+  margin: 5px;
 }
 
 /* Clearfix */
