@@ -7,12 +7,17 @@
   height: 40vmin;
 }
 
+html {
+  background-image: url(./resources/background.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+}
 main{
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; 
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -57,6 +62,7 @@ header {
   position: fixed;
   top: 0;
   background: black;
+  border-bottom: 2px whitesmoke solid;
 } 
 
 .nav-direction:hover{
@@ -83,19 +89,26 @@ a:visited{
 .nav-nameplate{
   font-size: 30px;
   height: 50px;
+  width: 180px;
   display: block;
   padding: 20px;
   float: left;
   text-align: center;
+  border-right: 2px whitesmoke solid;
 }
 
 .nav-direction{
   font-size: 30px;
   height: 50px;
   display: block;
-  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 7px;
+  padding-right: 7px;
   float: left;
   text-align: center;
+  border-right: 2px whitesmoke solid;
+
 }
 
 .nav-direction-right{
@@ -104,10 +117,11 @@ a:visited{
   display: block;
   padding-top: 20px;
   padding-bottom: 20px;
-  padding-left: 12px;
-  padding-right: 12px;
-  float: right;
+  padding-left: 7px;
+  padding-right: 7px;
+  float: left;
   text-align: center;
+  border-right: 2px whitesmoke solid;
 }
 
 .profile-pic{
