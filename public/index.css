@@ -147,7 +147,6 @@ a:visited{
   border-radius: 46px;
   border: 2px whitesmoke solid;
   background: black;
-  padding: 20px;
   margin-top: 25px;
   margin-bottom: 25px;
   margin-left: 0 auto;
@@ -158,11 +157,12 @@ a:visited{
   display: inline-block;
   font-size: 24px;
   text-align: left;
+  padding: 20px;
 }
 
 .project-img {
   vertical-align: middle;
-  max-width: 350px;
+  max-width: 300px;
   width: 100%;
   height: auto;
   border-radius: 4px;
