@@ -1,0 +1,250 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+main{
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+header {
+  background: black;
+  color: white;
+  height: auto;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left:0px;
+}
+
+.home{
+  max-width: 960px;
+  min-width: 300px;
+  width: 100%;
+  margin-left:auto;
+  margin-right: auto;
+  margin-top: 90px;
+}
+
+.nav-bar{
+  display: inline-block;
+  width: 100%;
+  height: 90px;
+}
+
+
+ .nav-directionals{
+  padding-left:0px;
+  margin: 0px;
+  width: 100%;
+  list-style: none;
+  padding: 0px;
+  position: fixed;
+  top: 0;
+  background: black;
+} 
+
+.nav-direction:hover{
+  background: grey;
+  color:black;
+}
+
+.nav-direction-right:hover{
+  background: grey;
+  color:black;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+a:visited{
+  background: black;
+  color:white;
+}
+
+
+.nav-nameplate{
+  font-size: 30px;
+  height: 50px;
+  display: block;
+  padding: 20px;
+  float: left;
+  text-align: center;
+}
+
+.nav-direction{
+  font-size: 30px;
+  height: 50px;
+  display: block;
+  padding: 20px;
+  float: left;
+  text-align: center;
+}
+
+.nav-direction-right{
+  font-size: 28px;
+  height: 50px;
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 12px;
+  padding-right: 12px;
+  float: right;
+  text-align: center;
+}
+
+.profile-pic{
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+  margin: 20px;
+
+}
+
+.description{
+  max-width: 960px;
+  min-width: 300px;
+  width: 100%;
+  background: black;
+  padding: 20px;
+}
+
+.row {
+  max-width: 1000px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+
+.portfolio {
+ border-top: 2px whitesmoke solid;
+ margin-top: 50px;
+ margin-bottom: 50px;
+}
+
+.project {
+  display: inline-block;
+  max-width: 900px;
+  min-width: 260px;
+  width:90%;
+  border-radius: 46px;
+  border: 2px whitesmoke solid;
+  background: black;
+  padding: 20px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 0 auto;
+  margin-right: 0  auto;
+}
+
+.project-description {
+  display: inline-block;
+  font-size: 18px;
+  text-align: left;
+}
+
+.project-img {
+  vertical-align: middle;
+  max-width: 350px;
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+h4{
+  width:100%;
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.tech-stack{
+  text-align: center;
+}
+
+.tech-title {
+  border-top: 2px white solid;
+  border-bottom: 2px white solid;
+}
+
+.tech {
+  display: inline-block;
+  font-size: 16px;
+  padding: 10px;
+  margin: 5px;
+}
+
+.linkedin {
+  display: inline-block;
+  background-image: url(./resources/linkedin.png);
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+  padding:10px;
+  margin: 0 auto;
+  margin-left: 5px;
+  margin-right: 5px; 
+}
+
+.github {
+  display: inline-block;
+  background-image: url(./resources/github.png);
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+  margin: 0 auto;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.resume {
+  display: inline-block;
+  background-image: url(./resources/resume.png);
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px; 
+  padding: 10px;
+  margin: 0 auto;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.email {
+  display: inline-block;
+  background-image: url(./resources/email.png);
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+  margin: 0 auto;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.about {
+  border-top: 2px white solid;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.contact-info{
+  margin-bottom: 50px;
+}
