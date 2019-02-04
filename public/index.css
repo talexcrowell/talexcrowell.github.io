@@ -85,6 +85,14 @@ a:visited{
   color:white;
 }
 
+.live-link{
+  text-decoration: underline;
+}
+
+.live-link:hover{
+  color: gray;
+}
+
 
 .nav-nameplate{
   font-size: 30px;
@@ -286,5 +294,16 @@ h3 {
 
 .github-repo{
   display: block;
-  text-align: center;
+  width:60px;
+  height:50px;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right:auto;
+  margin-bottom: 5px;
+  padding:5px;
+}
+
+.github-repo:hover{
+ border:2px white solid;
+  border-radius: 5px;
 }
