@@ -13,8 +13,8 @@ export default class Home extends React.Component{
           <section className='contact-info'>
             <a href='#'><i className='resume'/></a>
             <a href='mailto:talexcrowell@gmail.com'><i className='email'/></a>
-            <a href='https://www.linkedin.com/in/t-alexander-crowell-01885b162'><i className='linkedin'/></a>
-            <a href='https://github.com/talexcrowell'><i className='github'/></a>
+            <a href='https://www.linkedin.com/in/t-alexander-crowell-01885b162' target='_blank' rel='noopener noreferrer'><i className='linkedin'/></a>
+            <a href='https://github.com/talexcrowell' target='_blank' rel='noopener noreferrer'><i className='github'/></a>
           </section>
         </div>
         <AboutMe />
