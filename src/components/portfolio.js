@@ -39,7 +39,7 @@ export default class Portfolio extends React.Component{
           <div className='project-description'>
             <a className='live-link' href='https://noted-client.herokuapp.com' target='_blank' rel='noopener noreferrer'><h3>Noted</h3></a>
             <a className='github-repo' href='https://github.com/thinkful-ei25/noted-client-sean-alex' target='_blank' rel='noopener noreferrer'><i className='github'/></a>
-            <p>Noted is an application focused on helping users learn musical notation and improve their skills as musician.</p>
+            <p>Noted is an application focused on helping users learn musical notation and improve their skills as a classical musician.</p>
             <p>The learning experience comes from utilizing a spaced repetition algorithm and allowing users to be exposed more frequently to questions they may have missed.</p>
           </div>
           <img className='project-img' src='https://i.imgur.com/0rtvoY8.png' alt='Noted' ></img>
