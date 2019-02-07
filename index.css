@@ -1,0 +1,352 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+html {
+  background-image: url(./resources/background.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+}
+main{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+header {
+  background: black;
+  color: white;
+  height: auto;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left:0px;
+}
+
+.home{
+  max-width: 960px;
+  min-width: 300px;
+  width: 100%;
+  margin-left:auto;
+  margin-right: auto;
+  margin-top: 90px;
+}
+
+.nav-bar{
+  display: inline-block;
+  width: 100%;
+  height: 90px;
+}
+
+
+ .nav-directionals{
+  padding-left:0px;
+  margin: 0px;
+  width: 100%;
+  list-style: none;
+  padding: 0px;
+  position: fixed;
+  top: 0;
+  background: black;
+  border-bottom: 2px whitesmoke solid;
+} 
+
+.nav-direction:hover{
+  background: grey;
+  color:black;
+}
+
+.nav-direction-right:hover{
+  background: grey;
+  color:black;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+a:visited{
+  background: black;
+  color:white;
+}
+
+.live-link{
+  text-decoration: underline;
+}
+
+.live-link:hover{
+  color: gray;
+}
+
+
+.nav-nameplate{
+  font-size: 30px;
+  height: 50px;
+  width: 195px;
+  display: block;
+  padding: 20px;
+  float: left;
+  text-align: center;
+  border-right: 2px whitesmoke solid;
+}
+
+.nav-direction{
+  font-size: 30px;
+  height: 50px;
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 2.5px;
+  padding-right: 2.5px;
+  float: left;
+  text-align: center;
+  border-right: 2px whitesmoke solid;
+
+}
+
+.nav-direction-right{
+  font-size: 28px;
+  height: 50px;
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 7px;
+  padding-right: 7px;
+  float: left;
+  text-align: center;
+  border-right: 2px whitesmoke solid;
+}
+
+.profile-pic{
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+  margin: 20px;
+
+}
+
+.description{
+  max-width: 960px;
+  min-width: 300px;
+  width: 100%;
+  background: black;
+  padding: 20px;
+}
+
+.row {
+  max-width: 1000px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+
+.portfolio {
+ border-top: 2px whitesmoke solid;
+ margin-top: 50px;
+ margin-bottom: 50px;
+}
+
+.project {
+  display: inline-block;
+  max-width: 900px;
+  min-width: 260px;
+  width:90%;
+  border-radius: 46px;
+  border: 2px whitesmoke solid;
+  background: black;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 0 auto;
+  margin-right: 0  auto;
+}
+
+.project-description {
+  display: inline-block;
+  font-size: 24px;
+  text-align: left;
+  padding: 20px;
+}
+
+.project-img {
+  vertical-align: middle;
+  min-width: 300px;
+  max-width: 800px;
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+h4{
+  width:100%;
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.tech-stack{
+  text-align: center;
+}
+
+.tech-title {
+  border-top: 2px white solid;
+  border-bottom: 2px white solid;
+}
+
+.tech {
+  display: inline-block;
+  font-size: 16px;
+  padding: 10px;
+  margin: 5px;
+}
+
+.linkedin {
+  display: inline-block;
+  background-image: url(./resources/linkedin.png);
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+  padding:10px;
+  margin: 0 auto;
+  margin-left: 5px;
+  margin-right: 5px; 
+}
+
+.github {
+  display: inline-block;
+  background-image: url(./resources/github.png);
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+  margin: 0 auto;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.resume {
+  display: inline-block;
+  background-image: url(./resources/resume.png);
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px; 
+  padding: 10px;
+  margin: 0 auto;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.email {
+  display: inline-block;
+  background-image: url(./resources/email.png);
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+  margin: 0 auto;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.nav-resume {
+  display: inline-block;
+  background-image: url(./resources/resume.png);
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px; 
+  padding: 10px;
+  margin: 0 auto;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.nav-email {
+  display: inline-block;
+  background-image: url(./resources/email.png);
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+  margin: 0 auto;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.about {
+  border-top: 2px white solid;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.contact-info{
+  padding: 5px;
+  height: 70px;
+  margin-bottom: 50px;
+}
+
+.contact::before{
+  content: " ";
+  display: block;
+  height: 90px;
+  margin: -90px 0 0;
+}
+
+h2 {
+  margin-top: 80px;
+  margin-bottom:40px;
+  text-decoration: underline;
+}
+
+h3 {
+  text-align: center;
+}
+
+.about-description{
+  font-size: 24px;
+}
+
+.github-repo{
+  display: block;
+  width:60px;
+  height:50px;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right:auto;
+  margin-bottom: 5px;
+  padding:5px;
+}
+
+
+.email:hover{
+  border:2px white solid;
+  border-radius: 5px;
+}
+
+.resume:hover{
+  border:2px white solid;
+  border-radius: 5px;
+}
+
+.linkedin:hover{
+  border:2px white solid;
+  border-radius: 5px;
+}
+
+.github:hover{
+  border:2px white solid;
+  border-radius: 5px;
+}
