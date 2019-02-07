@@ -13,7 +13,7 @@ export default class Portfolio extends React.Component{
             <p>It was created with a team of developers where I took the role of Project Manager. Each member developed a separate feature that was reviewed and refactored with the developer team's decisions and criticisms throughout the project.</p>
             <p>The Friend Zone is an ongoing project with plans for adding new features to improve user experience and continue making the Friend Zone a safe, comfortable online community.</p>
           </div>
-          <img className='project-img' src='https://i.imgur.com/2pX7VOI.png?1' alt='The Friend Zone' ></img>
+          <img className='project-img' src='https://i.imgur.com/mTl1PZX.png' alt='The Friend Zone' ></img>
           <div className='tech-stack'>
             <h4 className='tech-title'>Tech Stack</h4>
             <h4>Front-End:</h4>
